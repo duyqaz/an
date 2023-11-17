@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+
+  width: 100%;
+  
+  flex-direction: column;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.menu {
+  flex-basis: 20%;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  font-size: x-large;
+}
+
+.box_title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_content input[type="text"],
+.form_content input[type="file"],
+.form_content textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.form_content input[type="submit"],
+.form_content input[type="reset"],
+.form_content input[type="button"] {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+}
+
+.form_content textarea {
+  height: 10rem;
+}
+
+.boxcenter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 300px; /* Điều chỉnh độ rộng theo ý muốn */
+  margin-bottom: 10px;
+  height: 700px;
+}
+
+.menu nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu nav ul li {
+  margin-bottom: 10px;
+}
+
+.menu nav ul li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+/* Style cho nội dung */
+.content {
+  width: 100%; /* Chiếm toàn bộ chiều rộng của phần tử cha */
+  /* Bỏ giá trị margin-left để nội dung không bị lệch */
+}
+
+.form_title {
+  margin-top: 20px;
+}
+
+.form_content {
+  margin-top: 10px;
+}
+
+.mgl{
+  margin-left: 50px;
+}
