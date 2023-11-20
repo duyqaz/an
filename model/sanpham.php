@@ -10,29 +10,29 @@ function delete_sanpham($id)
     pdo_query($sql);
 }
 
-function loadall_sanpham($kyw, $iddm)
+function loadall_sanpham($kyw, $id_dm)
 {
     $sql = "select * from san_pham where 1";
 
     if ($kyw != "") {
         $sql .= " and name_sp like '%" . $kyw . "%'";
     }
-    if ($iddm > 0) {
-        $sql .= " and iddm = '" . $iddm . "'";
+    if ($id_dm > 0) {
+        $sql .= " and iddm = '" . $id_dm . "'";
     }
-    $sql .= " order by id desc";
+    $sql .= " order by iddm desc";
     $listsp = pdo_query($sql);
     return $listsp;
 }
-function loadall_sanpham_top10()
-{
-    $sql = "select * from san_pham where 1 order by view desc limit 0,10";
-    $listsp = pdo_query($sql);
-    return $listsp;
-}
+// function loadall_sanpham_top10()
+// {
+//     $sql = "select * from san_pham where 1 order by view desc limit 0,10";
+//     $listsp = pdo_query($sql);
+//     return $listsp;
+// }
 function loadall_sanpham_home()
 {
-    $sql = "select * from san_pham where 1 order by id desc limit 0,9";
+    $sql = "select * from san_pham where 1 order by id_sp desc limit 0,9";
     $listsp = pdo_query($sql);
     return $listsp;
 }
@@ -45,7 +45,7 @@ function loadone_sanpham($id)
 function loadone_tensanpham($iddm)
 {
     if($iddm>0){
-       $sql = " select * from danhmuc where id=" . $iddm;
+       $sql = " select * from danh_muc where id_dm=" . $iddm;
     $dm = pdo_query_one($sql);
     extract($dm);
     return $dm; 
@@ -63,9 +63,9 @@ function load_sanpham_cungloai($id)
 function update_sanpham($id,$iddm, $name_sp, $mota,$price,  $image)
 {
     if ($image != "") {
-        $sql = "update san_pham set iddm='".$iddm."', name='" . $name_sp . "',price='" . $price. "',mota='" . $mota . "',img='" . $image . "' where id_sp=" . $id;
+        $sql = "update san_pham set iddm='".$iddm."', name='" . $name_sp . "',mota='" . $mota . "',price='" . $price. "',img='" . $image . "' where id_sp=" . $id;
     } else {
-        $sql = "update san_pham set iddm='".$iddm."', name='" . $name_sp . "' ,price='" . $price. "',mota='" . $mota . "' where id_sp=" . $id;
+        $sql = "update san_pham set iddm='".$iddm."', name='" . $name_sp . "' ,mota='" . $mota . "',price='" . $price. "' where id_sp=" . $id;
     }
 
 

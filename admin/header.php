@@ -76,7 +76,7 @@
         <div class="row mb menu ">
           <nav>
             <ul>
-              <li><a href="../index.php">Trang Web</a></li>
+              <li><a href="../view/">Trang Web</a></li>
               <li><a href="index.php?act=adddm">Loại Hàng</a></li>
               <li><a href="index.php?act=addsp">Hàng Hóa</a></li>
               <li><a href="index.php?act=dskh">Khách Hàng</a></li>

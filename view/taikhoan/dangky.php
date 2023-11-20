@@ -1,5 +1,286 @@
-<!--== Start Footer Area Wrapper ==-->
-<footer class="footer-area">
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<!-- Mirrored from template.hasthemes.com/shome/shome/account-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Nov 2023 06:03:42 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shome - Shoes eCommerce Website Template"/>
+    <meta name="keywords" content="footwear, shoes, modern, shop, store, ecommerce, responsive, e-commerce"/>
+    <meta name="author" content="codecarnival"/>
+
+    <title>Account Register :: Shome - Shoes eCommerce Website Template</title>
+
+    <!--== Favicon ==-->
+    <link rel="shortcut icon" href="../css/img/favicon.ico" type="image/x-icon" />
+
+    <!--== Google Fonts ==-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,500&amp;display=swap" rel="stylesheet">
+
+    <!--== Bootstrap CSS ==-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <!--== Font Awesome Min Icon CSS ==-->
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+    <!--== Pe7 Stroke Icon CSS ==-->
+    <link href="../css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <!--== Swiper CSS ==-->
+    <link href="../css/swiper.min.css" rel="stylesheet" />
+    <!--== Fancybox Min CSS ==-->
+    <link href="../css/fancybox.min.css" rel="stylesheet" />
+    <!--== Aos Min CSS ==-->
+    <link href="../css/aos.min.css" rel="stylesheet" />
+
+    <!--== Main Style CSS ==-->
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!--wrapper start-->
+<div class="wrapper">
+
+  <!--== Start Header Wrapper ==-->
+  <header class="main-header-wrapper position-relative">
+    <div class="header-top">
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-12">
+            <div class="header-top-align">
+              <div class="header-top-align-start">
+                <div class="desc">
+                  <p>World Wide Completely Free Returns and Free Shipping</p>
+                </div>
+              </div>
+              <div class="header-top-align-end">
+                <div class="header-info-items">
+                  <div class="info-items">
+                    <ul>
+                      <li class="number"><i class="fa fa-phone"></i><a href="tel://0123456789">+00 123 456 789</a></li>
+                      <li class="email"><i class="fa fa-envelope"></i><a href="mailto://demo@example.com">demo@example.com</a></li>
+                      <li class="account"><i class="fa fa-user"></i><a href="account-login.html">Account</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle">
+      <div class="container pt--0 pb--0">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="header-middle-align">
+              <div class="header-middle-align-start">
+                <div class="header-logo-area">
+                  <a href="index.html">
+                    <img class="logo-main" src="../img/logo.webp" width="131" height="34" alt="Logo" />
+                    <img class="logo-light" src="../img/logo-light.webp" width="131" height="34" alt="Logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="header-middle-align-center">
+                <div class="header-search-area">
+                  <form class="header-searchbox">
+                    <input type="search" class="form-control" placeholder="Search">
+                    <button class="btn-submit" type="submit"><i class="pe-7s-search"></i></button>
+                  </form>
+                </div>
+              </div>
+              <div class="header-middle-align-end">
+                <div class="header-action-area">
+                  <div class="shopping-search">
+                    <button class="shopping-search-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch"><i class="pe-7s-search icon"></i></button>
+                  </div>
+                  <div class="shopping-wishlist">
+                    <a class="shopping-wishlist-btn" href="shop-wishlist.html">
+                      <i class="pe-7s-like icon"></i>
+                    </a>
+                  </div>
+                  <div class="shopping-cart">
+                    <button class="shopping-cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasCart" aria-controls="offcanvasRightLabel">
+                      <i class="pe-7s-shopbag icon"></i>
+                      <sup class="shop-count">02</sup>
+                    </button>
+                  </div>
+                  <button class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
+                    <i class="pe-7s-menu"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-area header-default">
+      <div class="container">
+        <div class="row no-gutter align-items-center position-relative">
+          <div class="col-12">
+            <div class="header-align">
+              <div class="header-navigation-area position-relative">
+                <ul class="main-menu nav">
+                  <li class="has-submenu"><a href="#/"><span>Home</span></a>
+                    <ul class="submenu-nav">
+                      <li><a href="index.html"><span>Home One</span></a></li>
+                      <li><a href="index-two.html"><span>Home Two</span></a></li>
+                    </ul>
+                  </li>
+                  <li><a href="about-us.html"><span>About</span></a></li>
+                  <li class="has-submenu"><a href="#/"><span>Pages</span></a>
+                    <ul class="submenu-nav">
+                      <li><a href="account.html"><span>Account</span></a></li>
+                      <li><a href="account-login.html"><span>Login</span></a></li>
+                      <li><a href="account-register.html"><span>Register</span></a></li>
+                      <li><a href="page-not-found.html"><span>Page Not Found</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="has-submenu position-static"><a href="#/"><span>Shop</span></a>
+                    <ul class="submenu-nav submenu-nav-mega column-3">
+                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Shop Layout</span></a>
+                        <ul>
+                          <li><a href="shop-three-columns.html"><span>Shop 3 Column</span></a></li>
+                          <li><a href="shop-four-columns.html"><span>Shop 4 Column</span></a></li>
+                          <li><a href="shop.html"><span>Shop Left Sidebar</span></a></li>
+                          <li><a href="shop-right-sidebar.html"><span>Shop Right Sidebar</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Single Product</span></a>
+                        <ul>
+                          <li><a href="single-normal-product.html"><span>Single Product Normal</span></a></li>
+                          <li><a href="single-product.html"><span>Single Product Variable</span></a></li>
+                          <li><a href="single-group-product.html"><span>Single Product Group</span></a></li>
+                          <li><a href="single-affiliate-product.html"><span>Single Product Affiliate</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Others Pages</span></a>
+                        <ul>
+                          <li><a href="shop-cart.html"><span>Shopping Cart</span></a></li>
+                          <li><a href="shop-checkout.html"><span>Checkout</span></a></li>
+                          <li><a href="shop-wishlist.html"><span>Wishlist</span></a></li>
+                          <li><a href="shop-compare.html"><span>Compare</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="has-submenu"><a href="#/"><span>Blog</span></a>
+                    <ul class="submenu-nav submenu-nav-mega">
+                      <li class="mega-menu-item"><a href="#/" class="mega-title">Blog Layout</a>
+                        <ul>
+                          <li><a href="blog.html">Blog Grid</a></li>
+                          <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                          <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-item"><a href="#/" class="mega-title">Single Blog</a>
+                        <ul>
+                          <li><a href="blog-details-no-sidebar.html">Blog Details</a></li>
+                          <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
+                          <li><a href="blog-details.html">Blog Details Right Sidebar</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html"><span>Contact</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--== End Header Wrapper ==-->
+  
+  <main class="main-content">
+    <!--== Start Page Header Area Wrapper ==-->
+    <div class="page-header-area" data-bg-img="../img/photos/bg3.webp">
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-12">
+            <div class="page-header-content">
+              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">Register</h2>
+              <nav class="breadcrumb-area" data-aos="fade-down" data-aos-duration="1200">
+                <ul class="breadcrumb">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-sep">//</li>
+                  <li>Register</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End Page Header Area Wrapper ==-->
+
+    <!--== Start My Account Area Wrapper ==-->
+    <section class="account-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 m-auto">
+            <div class="section-title text-center">
+              <h2 class="title">Register</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="register-form-content">
+              <form action="index.php?act=dangky" method="post">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label for="username">Username <span class="required">*</span></label>
+                      <input name="name" id="username" class="form-control" type="text">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label for="email">Email address <span class="required">*</span></label>
+                      <input name="email" id="email" class="form-control" type="email">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label for="password">Password <span class="required">*</span></label>
+                      <input name="pass" id="password" class="form-control" type="password">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group mb--0">
+                      <input type="submit" value="Đăng Ký" name="dangky">
+                    </div> 
+                  </div>
+                </div>
+                <h2 class="Thongbao">
+                    <?php
+                    if (isset($thongbao) && ($thongbao != "")) {
+                        echo $thongbao;
+                    }
+                    ?>
+                </h2>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End My Account Area Wrapper ==-->
+  </main>
+
+  <!--== Start Footer Area Wrapper ==-->
+  <footer class="footer-area">
     <!--== Start Footer Main ==-->
     <div class="footer-main">
       <div class="container pt--0 pb--0">
@@ -10,7 +291,7 @@
               <div class="about-widget-wrap">
                 <div class="widget-logo-area">
                   <a href="index.html">
-                    <img class="logo-main" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
+                    <img class="logo-main" src="../img/logo-light.webp" width="131" height="34" alt="Logo" />
                   </a>
                 </div>
                 <p class="desc">Lorem ipsum dolor sit amet consl adipisi elit, sed do eiusmod templ incididunt ut labore</p>
@@ -100,7 +381,7 @@
           </div>
           <div class="col-md-5 col-lg-6">
             <div class="payment">
-              <a href="account-login.html"><img src="assets/img/photos/payment-card.webp" width="192" height="21" alt="Payment Logo"></a>
+              <a href="account-login.html"><img src="../img/photos/payment-card.webp" width="192" height="21" alt="Payment Logo"></a>
             </div>
           </div>
         </div>
@@ -123,7 +404,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6 col-md-6 col-12">
             <div class="thumb">
-              <img src="assets/img/shop/product-single/1.webp" width="570" height="541" alt="Alan-Shop">
+              <img src="../img/shop/product-single/1.webp" width="570" height="541" alt="Alan-Shop">
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-12">
@@ -181,7 +462,7 @@
         <li class="product-list-item">
           <a href="#/" class="remove">×</a>
           <a href="single-product.html">
-            <img src="assets/img/shop/product-mini/1.webp" width="90" height="110" alt="Image-HasTech">
+            <img src="../img/shop/product-mini/1.webp" width="90" height="110" alt="Image-HasTech">
             <span class="product-title">Leather Mens Slipper</span>
           </a>
           <span class="product-price">1 × £69.99</span>
@@ -189,7 +470,7 @@
         <li class="product-list-item">
           <a href="#/" class="remove">×</a>
           <a href="single-product.html">
-            <img src="assets/img/shop/product-mini/2.webp" width="90" height="110" alt="Image-HasTech">
+            <img src="../img/shop/product-mini/2.webp" width="90" height="110" alt="Image-HasTech">
             <span class="product-title">Quickiin Mens shoes</span>
           </a>
           <span class="product-price">1 × £20.00</span>
@@ -198,7 +479,7 @@
       <p class="cart-total"><span>Subtotal:</span><span class="amount">£89.99</span></p>
       <a class="btn-theme" data-margin-bottom="10" href="shop-cart.html">View cart</a>
       <a class="btn-theme" href="shop-checkout.html">Checkout</a>
-      <a class="d-block text-end lh-1" href="shop-checkout.html"><img src="assets/img/photos/paypal.webp" width="133" height="26" alt="Has-image"></a>
+      <a class="d-block text-end lh-1" href="shop-checkout.html"><img src="../img/photos/paypal.webp" width="133" height="26" alt="Has-image"></a>
     </div>
   </div>
   <!--== End Aside Cart Menu ==-->
@@ -313,39 +594,38 @@
     </div>
   </div>
   <!--== End Side Menu ==-->
-
 </div>
 
 <!--=======================Javascript============================-->
 
 <!--=== jQuery Modernizr Min Js ===-->
-<script src="assets/js/modernizr.js"></script>
+<script src="../js/modernizr.js"></script>
 <!--=== jQuery Min Js ===-->
-<script src="assets/js/jquery-main.js"></script>
+<script src="../js/jquery-main.js"></script>
 <!--=== jQuery Migration Min Js ===-->
-<script src="assets/js/jquery-migrate.js"></script>
+<script src="../js/jquery-migrate.js"></script>
 <!--=== jQuery Popper Min Js ===-->
-<script src="assets/js/popper.min.js"></script>
+<script src="../js/popper.min.js"></script>
 <!--=== jQuery Bootstrap Min Js ===-->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 <!--=== jQuery Ui Min Js ===-->
-<script src="assets/js/jquery-ui.min.js"></script>
+<script src="../js/jquery-ui.min.js"></script>
 <!--=== jQuery Swiper Min Js ===-->
-<script src="assets/js/swiper.min.js"></script>
+<script src="../js/swiper.min.js"></script>
 <!--=== jQuery Fancybox Min Js ===-->
-<script src="assets/js/fancybox.min.js"></script>
+<script src="../js/fancybox.min.js"></script>
 <!--=== jQuery Waypoint Js ===-->
-<script src="assets/js/waypoint.js"></script>
+<script src="../js/waypoint.js"></script>
 <!--=== jQuery Parallax Min Js ===-->
-<script src="assets/js/parallax.min.js"></script>
+<script src="../js/parallax.min.js"></script>
 <!--=== jQuery Aos Min Js ===-->
-<script src="assets/js/aos.min.js"></script>
+<script src="../js/aos.min.js"></script>
 
 <!--=== jQuery Custom Js ===-->
-<script src="assets/js/custom.js"></script>
+<script src="../js/custom.js"></script>
 
 </body>
 
 
-<!-- Mirrored from template.hasthemes.com/shome/shome/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Nov 2023 06:03:28 GMT -->
+<!-- Mirrored from template.hasthemes.com/shome/shome/account-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Nov 2023 06:03:42 GMT -->
 </html>

@@ -9,9 +9,9 @@
 
           <select name="iddm" id="">
             <?php
-            foreach ($listdm as $danhmuc) {
+            foreach ($listdanhmuc as $danhmuc) {
               extract($danhmuc);
-              echo ' <option value="' . $id . '">' . $name . '</option> ';
+              echo ' <option value="' . $id_dm . '">' . $name_dm . '</option> ';
             }
             ?>
 
@@ -37,7 +37,7 @@
         <div class="row mb20 ">
           <input type="submit" name="themmoi" value="Thêm Mới">
           <input type="reset" value="Nhập Lại">
-          <a href="index.php?act=listsp"><input  style="width: 100% ;" type="button" value="Danh Sách "></a>
+          <a href="index.php?act=listsp"><input  style="width: 100% ;" name="listok" type="button" value="Danh Sách "></a>
         </div>
         <?php
         if (isset($thongbao) && $thongbao != "")

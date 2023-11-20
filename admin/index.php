@@ -1,6 +1,9 @@
 <?php
+include "../model/danhmuc.php";
 include "../model/pdo.php";
 include "../model/sanpham.php";
+include "../model/taikhoan.php";
+
 include "header.php";
 // controller
 
@@ -26,12 +29,12 @@ if (isset($_GET['act'])) {
                     // echo "Sorry, there was an error uploading your file.";
                 }
 
-                insert_sanpham($name_sp, $price, $image, $mota, $iddm);
+                insert_sanpham($name_sp, $price, $mota, $image,  $iddm);
                 $thongbao = "Thêm thành công";
             }
-            // $listdm = loadall_danhmuc();
+            $listdanhmuc = loadall_danhmuc();
 
-            include "sanpham/add.php";
+            include "../admin/sanpham/add.php";
             break;
 
         case 'listsp':
@@ -42,9 +45,9 @@ if (isset($_GET['act'])) {
                 $kyw = '';
                 $iddm = 0;
             }
-            // $listdm = loadall_danhmuc();
+            $listdanhmuc = loadall_danhmuc();
             $listsp = loadall_sanpham($kyw, $iddm);
-            include "sanpham/listsp.php";
+            include "../admin/sanpham/list.php";
 
 
             break;
@@ -88,8 +91,55 @@ if (isset($_GET['act'])) {
             $listsanpham = loadall_sanpham("", 0);
             include "sanpham/listsp.php";
             break;
+            // danh mục
+        case 'adddm':
+            //Kiểm tra người dùng có click vào add hay không
+            if (isset($_POST['themmoi']) && ($_POST['themmoi'])) {
+                $tenloai = $_POST['tenloai'];
+                insert_danhmuc($tenloai);
+                $thongbao = "bạn đã nhập thành công";
+            }
+            include "../admin/danhmuc/add.php";
+            break;
+        case 'listdm':
+            $listdanhmuc = loadall_danhmuc();
 
-        
+            include "danhmuc/list.php";
+            break;
+
+        case 'xoadm':
+            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+                $sql = "delete from danh_muc where id=" . $_GET['id'];
+                pdo_execute($sql);
+            }
+
+            $listdanhmuc = loadall_danhmuc();
+            include "danhmuc/list.php";
+            break;
+        case 'suadm':
+            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+                $sql = "select * from danh_muc where id=" . $_GET['id'];
+                $dm = loadone_danhmuc($_GET['id']);
+            }
+
+            include "danhmuc/update.php";
+            break;
+        case 'updatedm':
+            if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
+                $tenloai = $_POST['tenloai'];
+                $iddm = $_POST['id'];
+                update_danhmuc($iddm, $tenloai);
+                $thongbao = "bạn đã cập nhập thành công";
+            }
+            $listdanhmuc = loadall_danhmuc();
+            include "danhmuc/list.php";
+            break;
+        case 'dskh':
+            $list_taikhoan = loadall_taikhoan();
+            include "taikhoan/list.php";
+            break;
+
+
 
         default:
             include "home.php";
