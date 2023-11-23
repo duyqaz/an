@@ -6,7 +6,7 @@
 
     }
     function insert_account($user,$pass,$email) { 
-        $sql=" insert into taikhoan (user,pass,email) values ('$user','$pass','$email')";
+        $sql="insert into taikhoan (user,pass,email) values ('$user','$pass','$email')";
         pdo_execute($sql);
 
     }
@@ -29,7 +29,7 @@
 }
 function delete_taikhoan($id)
 {
-    $sql = "delete from taikhoan where idtk=" . $id;
+    $sql = "delete from taikhoan where id=" . $id;
     pdo_query($sql);
 }
 

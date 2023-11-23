@@ -5,8 +5,7 @@ include "../model/sanpham.php";
 include "../model/danhmuc.php";
 include "../model/taikhoan.php";
 include "../view/header.php";
-include "../view/home.php";
-include "../view/footer.php";
+
 include "global.php";
 $sp_new = loadall_sanpham_home();
 $dsdm = loadall_danhmuc();
@@ -52,14 +51,15 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
     case 'dangky':
       if (isset($_POST['dangky']) && ($_POST['dangky'])) {
         $email = $_POST['email'];
-        $user = $_POST['name'];
+        $user = $_POST['user'];
         $pass = $_POST['pass'];
+
         insert_account($user, $pass, $email);
+        
         $thongbao = "Đăng Ký Thành Công mời đăng nhập ";
       }
 
-      include "../view/taikhoan/dangky.php";
-
+      include "view/taikhoan/dangky.php";
       break;
     case 'dangnhap':
       if (isset($_POST['dangnhap']) && ($_POST['dangnhap'])) {
