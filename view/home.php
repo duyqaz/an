@@ -68,7 +68,7 @@
         <div class="divider-thumb-content">
           <div class="thumb">
             <a href="shop.html">
-              <img src="assets/img/shop/banner/1.webp" width="570" height="350" alt="Image-HasTech">
+              <img src="../view/img/shop/banner/1.webp" width="570" height="350" alt="Image-HasTech">
             </a>
           </div>
           <div class="content">
@@ -82,7 +82,7 @@
         <div class="divider-thumb-content">
           <div class="thumb">
             <a href="shop.html">
-              <img src="assets/img/shop/banner/2.webp" width="570" height="700" alt="Image-HasTech">
+              <img src="../view/img/shop/banner/2.webp" width="570" height="700" alt="Image-HasTech">
             </a>
           </div>
         </div>
@@ -111,7 +111,7 @@
         <div class="post-item">
           <div class="inner-content">
             <div class="thumb">
-              <a href="blog-details.html"><img src="assets/img/blog/1.webp" width="370" height="260" alt="Image-HasTech"></a>
+              <a href="blog-details.html"><img src="../view/img/blog/1.webp" width="370" height="260" alt="Image-HasTech"></a>
             </div>
             <div class="content">
               <div class="meta-post">
@@ -132,7 +132,7 @@
         <div class="post-item">
           <div class="inner-content">
             <div class="thumb">
-              <a href="blog-details.html"><img src="assets/img/blog/2.webp" width="370" height="260" alt="Image-HasTech"></a>
+              <a href="blog-details.html"><img src="../view/img/blog/2.webp" width="370" height="260" alt="Image-HasTech"></a>
             </div>
             <div class="content">
               <div class="meta-post">
@@ -153,7 +153,7 @@
         <div class="post-item">
           <div class="inner-content">
             <div class="thumb">
-              <a href="blog-details.html"><img src="assets/img/blog/3.webp" width="370" height="260" alt="Image-HasTech"></a>
+              <a href="blog-details.html"><img src="../view/img/blog/3.webp" width="370" height="260" alt="Image-HasTech"></a>
             </div>
             <div class="content">
               <div class="meta-post">

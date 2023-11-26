@@ -7,11 +7,11 @@
       <form action="index.php?act=adddm" method="POST">
         <div class="row mb10 form_content_container">
           <label> Mã loại </label> <br>
-          <input type="text" name="maloai" placeholder="nhập vào mã loại" disabled>
+          <input type="text" name="maloai" disabled>
         </div>
         <div class="row mb10">
           <label>Tên loại </label> <br>
-          <input type="text" name="tenloai" placeholder="nhập vào tên" required>
+          <input type="text" name="tenloai" placeholder="nhập vào Danh mục" required>
         </div>
         <div class="row mb10 ">
           <input class="mr20" type="submit" name="themmoi" value="THÊM MỚI">

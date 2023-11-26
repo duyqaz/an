@@ -20,7 +20,7 @@
                             $xoadm = "index.php?act=xoadm&id=" . $id_dm;
 
                             echo '<tr>
-                <td><input type="checkbox" name="" id=""></td>
+                <td></td>
                 <td>' . $id_dm . '</td>
                 <td>' . $name_dm . '</td>
                 <td>  
