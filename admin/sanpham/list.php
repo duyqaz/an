@@ -18,7 +18,7 @@
             <input type="submit" name="listok" value="Go">
         </form>
         <div class="row form_content ">
-            <div class="row mb20 from_loai ">
+            <div class="row mb20 from_loai " >
 
                 <table>
                     <tr>
@@ -46,7 +46,7 @@
                                         <td><input type="checkbox"></td>
                                         <td>' . $id_sp . '</td>
                                         <td>' . $name_sp . '</td>
-                                        <td>' . $image . '</td>
+                                        <td style="height: 80px; width: 80px;" >' . $image . '</td>
                                         <td>' . $price . '</td>
                                       
                                         <td><a href="' . $suasp . '"><input type="button" value="Sửa"></a>  <a href="' . $xoasp . '"><input type="button" value="Xóa"></a>   </td>
@@ -61,9 +61,7 @@
             </div>
 
             <div class="row mb20 " style="display: flex;">
-                <input style="height: 150px;" type="button" value="Chọn Tất Cả">
-                <input style="height: 150px;" type="button" value="Bỏ Chọn Tất Cả">
-                <input style="height: 150px;" type="button" value="Xóa Các Mục Đã Chọn">
+               
                 <a href="index.php?act=addsp"><input type="button" value="Nhập Thêm"></a>
             </div>
 

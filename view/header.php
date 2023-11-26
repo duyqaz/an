@@ -141,9 +141,15 @@
                     </li>
                     <li><a href="about-us.html"><span>About</span></a></li>
                   
-                    <li class=" position-static"><a href="shop-four-columns.html"><span>Sản Phẩm</span></a>
+                    <li class="has-submenu "><a href="shop-four-columns.html"><span>Sản Phẩm</span></a>
                     
-                    </li>
+                    <ul class="submenu-nav">
+                      <li><a href="account.html"><span>Account</span></a></li>
+                      <li><a href="account-login.html"><span>Login</span></a></li>
+                      <li><a href="account-register.html"><span>Register</span></a></li>
+                      <li><a href="page-not-found.html"><span>Page Not Found</span></a></li>
+                    </ul>
+                  </li>
                     <li class=""><a href="#/"><span>Blog</span></a>
                       
                     </li>

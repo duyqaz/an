@@ -7,8 +7,8 @@ include "../model/taikhoan.php";
 include "../view/header.php";
 
 
-include "../global.php";
-
+include "global.php";
+$dssp = loadall_sanpham($kyw, $iddm);
 $sp_new = loadall_sanpham_home();
 $dsdm = loadall_danhmuc();
 // $dstop_10 = loadall_sanpham_top10();
